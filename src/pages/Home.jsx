@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Ayrton from "../components/Ayrton/Ayrton";
 
 
+
 const Home = () => {
 
   /* useEffect(()=> {
@@ -26,6 +27,7 @@ const Home = () => {
       <h5>
         Esse time está atualmente em primeiro lugar no brasileirão
       </h5>
+      <Ayrton/>
     </Base>
 
   )
