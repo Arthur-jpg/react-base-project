@@ -2,6 +2,8 @@ import { onAuthStateChanged } from "firebase/auth"
 import Base from "./Base"
 import { auth } from "../config/Firebase";
 import { useEffect } from "react";
+import Ayrton from "../components/Ayrton/Ayrton";
+
 
 const Home = () => {
 
@@ -19,9 +21,14 @@ const Home = () => {
   return (
     <Base>
       <h1>
-     Aplicação React Base
+     Jogadores do Botafogo
       </h1>
+      <h5>
+        Esse time está atualmente em primeiro lugar no brasileirão
+      </h5>
+      <Ayrton/>
     </Base>
+
   )
 }
 

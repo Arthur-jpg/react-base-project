@@ -5,9 +5,11 @@ const FotoArticle = styled.article`
   background-color: var(--detalhe);
   padding: .5em;
   position: relative;
+  
 
   figure {
     margin: .5rem 0 0 0;
+    
   }
   
   img {

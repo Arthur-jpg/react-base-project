@@ -5,6 +5,8 @@ const Card = styled.article`
   background-color: var(--detalhe);
   padding: .5em;
   position: relative;
+  border-radius: 10px;
+
   
   div.nome{
     background-color: var(--primaria);
@@ -13,6 +15,7 @@ const Card = styled.article`
     font-size: larger;
     font-weight: bold;
     text-transform: uppercase;
+    border-radius: 10px;
   }
 
   figure {
@@ -23,6 +26,7 @@ const Card = styled.article`
     object-fit: contain;
     width: 100%;
     height: 22rem;
+    border-radius: 10px;
   }
 
 `;

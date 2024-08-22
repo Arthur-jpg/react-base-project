@@ -6,6 +6,7 @@ const Top = styled.header`
   display: flex;
   flex-direction: row;
   margin: 0;
+  border-radius: 10px;
   a {
     text-align: center;
     padding: .3em;
@@ -18,8 +19,8 @@ const Top = styled.header`
     text-transform: uppercase;
     /*border-radius: .3em;*/
     &:hover{
-      background-color: var(--destaque);
-      color: var(--secundaria);
+      background-color: rgb(50,50,50);
+      color: rgb(255, 255, 255);
     }
   }
 `
