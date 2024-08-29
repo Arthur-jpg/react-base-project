@@ -25,7 +25,7 @@ const Home = () => {
      Jogadores do Botafogo
       </h1>
       <h5>
-        Esse time está atualmente em primeiro lugar no brasileirão
+        Esse time está atualmente em primeiro lugar no brasileirão ola
       </h5>
       <Ayrton/>
     </Base>
