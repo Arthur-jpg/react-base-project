@@ -6,11 +6,12 @@
   /* CSS HSL */
   /* https://coolors.co/ */
 
-  --primaria: rgb(255, 255, 255);
-  --background: rgb(77, 76, 76);
-  --secundaria: rgb(0, 0, 0);
-  --destaque: rgb(0, 0, 0);
-  --detalhe: rgb(0, 0, 0);
+  --primaria: rgb(0, 0, 0);
+  --background: rgb(255, 255, 255);
+  --secundaria: rgb(0, 37, 85);
+  --destaque: #F5AC00;
+  --detalhe: rgb(118, 118, 118);
+  ;
 
 
 /*  --primaria: hsla(0, 1%, 20%, 1);
@@ -29,13 +30,13 @@
 
 body {
   margin: 0;
-  font-family: 'Lora', serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background);
   color:var(--primaria);
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 div.container {
